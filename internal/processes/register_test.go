@@ -3,8 +3,8 @@ package processes
 import (
 	"testing"
 
-	"github.com/JMarzoli/synapsys-go-sdk-example/internal/business"
 	"github.com/basamento/synapsys-go-sdk"
+	"github.com/basamento/synapsys-go-sdk-example/internal/business"
 )
 
 func TestRegisterAddsTwelveProcessesOfEachType(t *testing.T) {

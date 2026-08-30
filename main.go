@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/JMarzoli/synapsys-go-sdk-example/internal/business"
-	processwiring "github.com/JMarzoli/synapsys-go-sdk-example/internal/processes"
-	"github.com/JMarzoli/synapsys-go-sdk-example/internal/status"
 	"github.com/basamento/synapsys-go-sdk"
+	"github.com/basamento/synapsys-go-sdk-example/internal/business"
+	processwiring "github.com/basamento/synapsys-go-sdk-example/internal/processes"
+	"github.com/basamento/synapsys-go-sdk-example/internal/status"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/JMarzoli/synapsys-go-sdk-example
+module github.com/basamento/synapsys-go-sdk-example
 
 go 1.22
 

@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/JMarzoli/synapsys-go-sdk-example/internal/business"
 	"github.com/basamento/synapsys-go-sdk"
+	"github.com/basamento/synapsys-go-sdk-example/internal/business"
 )
 
 // Register adds all 24 example processes. Nothing runs until Core sends a start.
