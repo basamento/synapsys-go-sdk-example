@@ -24,7 +24,7 @@ Set the deployment values and start the application.
 Windows PowerShell:
 
 ```powershell
-$env:SYNAPSYS_CORE_URL = "https://core.synapsys.sandbox.jmzworks.it"
+$env:SYNAPSYS_CORE_URL = "http://localhost:8080"
 $env:SYNAPSYS_CORE_TOKEN = "syn_your_worker_token"
 go run .
 ```
@@ -32,7 +32,7 @@ go run .
 Linux or macOS:
 
 ```bash
-export SYNAPSYS_CORE_URL=https://core.synapsys.sandbox.jmzworks.it
+export SYNAPSYS_CORE_URL=http://localhost:8080
 export SYNAPSYS_CORE_TOKEN=syn_your_worker_token
 go run .
 ```
